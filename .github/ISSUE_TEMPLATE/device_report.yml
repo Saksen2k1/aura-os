@@ -1,0 +1,38 @@
+name: Device report
+description: Tell us how AURA OS runs on your TV
+labels: [device-report]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: TV / device model
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AURA OS version
+    validations:
+      required: true
+  - type: checkboxes
+    id: works
+    attributes:
+      label: What works
+      options:
+        - label: Installs and opens from the app list
+        - label: Can be set as the home screen (note below if ADB was needed)
+        - label: D-pad navigation on the home screen
+        - label: Settings, Wallpaper, App order and All apps
+        - label: Inputs (HDMI / Live TV), if the TV has them
+        - label: Recently used row
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything that looked or behaved wrong, and performance numbers if you measured them (see docs/PERFORMANCE.md)

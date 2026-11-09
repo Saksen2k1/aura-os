@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: perf
+    attributes:
+      label: Impact on speed
+      description: AURA OS keeps the idle home screen at zero frames drawn. How would this fit?

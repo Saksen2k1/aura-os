@@ -1,0 +1,23 @@
+# Build output
+build/
+dist/
+*.apk
+*.apk.sha256
+
+# Signing keys and local credentials: never commit
+keys/
+*.keystore
+*.jks
+*.p12
+release-signing.env
+local.properties
+
+# ADB / device specifics
+adbkey*
+.tv_host
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

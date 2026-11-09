@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">AURA OS</string>
+
+    <!-- Home -->
+    <string name="inputs">Inputs</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="all_apps">All apps</string>
+    <string name="settings">Settings</string>
+    <string name="recently_used">Recently used</string>
+    <string name="just_now">Just now</string>
+    <string name="minutes_ago">%d min ago</string>
+    <string name="today_at">Today %s</string>
+    <string name="yesterday_at">Yesterday %s</string>
+    <string name="greet_night">Good night</string>
+    <string name="greet_morning">Good morning</string>
+    <string name="greet_forenoon">Good morning</string>
+    <string name="greet_afternoon">Good afternoon</string>
+    <string name="greet_evening">Good evening</string>
+    <string name="net_offline">No connection</string>
+    <string name="net_wifi">Wi-Fi connected</string>
+    <string name="net_wired">Wired connection</string>
+    <string name="live_tv">Live TV</string>
+    <string name="all_sources">All sources…</string>
+    <string name="system_settings">Android settings</string>
+
+    <!-- All apps -->
+    <string name="apps_installed">%d apps installed</string>
+
+    <!-- Wallpaper -->
+    <string name="wallpaper">Wallpaper</string>
+    <string name="wallpaper_sub">Pick a fixed picture, or let AURA change it automatically.</string>
+    <string name="auto_change">Automatic change</string>
+    <string name="auto_short">Automatic</string>
+    <string name="auto_off">Changing is off</string>
+    <string name="selected">✓ Selected</string>
+    <string name="picture_n">Picture %d</string>
+    <string name="own_pictures">Your own pictures: copy JPG or PNG files to\n%s</string>
+
+    <!-- App order -->
+    <string name="app_order">App order</string>
+    <string name="app_order_sub">The home screen app row</string>
+    <string name="in_row">In the app row · %d</string>
+    <string name="add_apps">Add apps</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="moving">↕  Moving</string>
+    <string name="help_moving">Moving %s.\n\nUse up and down to place the app, then press OK to drop it.</string>
+    <string name="help_order">Press OK on an app in the row to move it.\n\nChoose Remove to take an app out of the row, or Add to put one in. Changes show when you go back to the home screen.</string>
+
+    <!-- Settings -->
+    <string name="settings_sub">AURA OS · Cinematic Android TV Launcher</string>
+    <string name="sec_appearance">Appearance</string>
+    <string name="sec_home">Home screen</string>
+    <string name="sec_system">System</string>
+    <string name="set_wallpaper_help">Pick a fixed wallpaper, or let AURA rotate through the pictures automatically.</string>
+    <string name="set_interval">Change wallpaper</string>
+    <string name="set_interval_help">How often the wallpaper changes when Automatic change is selected.</string>
+    <string name="set_dim">Wallpaper dimming</string>
+    <string name="set_dim_help">How dark the cinematic gradient over the wallpaper is. Strong reads best on bright pictures.</string>
+    <string name="set_camera">Camera motion</string>
+    <string name="set_camera_help">A slow, cinematic pan across the wallpaper. Off by default: it keeps the GPU busy all the time, and on some TVs navigation gets less smooth while it runs.</string>
+    <string name="set_accent">Accent colour</string>
+    <string name="set_accent_help">The colour of focus frames, buttons and highlights throughout AURA.</string>
+    <string name="set_order_help">Choose which apps sit in the app row, and in what order.</string>
+    <string name="n_apps">%d apps</string>
+    <string name="set_style">App cards</string>
+    <string name="set_style_help">Dark with logo shows each app\'s colourful logo on a black card. Glass shows it on dark glass. Original banner shows the app\'s own banner with its built-in background.</string>
+    <string name="set_size">Card size</string>
+    <string name="set_size_help">The size of the cards in the app row and the Recently used row.</string>
+    <string name="set_labels">App names</string>
+    <string name="set_labels_help">Show only the focused app\'s name, or names under every card.</string>
+    <string name="set_recent">Recently used</string>
+    <string name="set_recent_help">The row of apps you used last. With usage access it includes apps opened from anywhere; without it, only apps opened from AURA.</string>
+    <string name="set_greeting">Greeting under the clock</string>
+    <string name="set_greeting_help">Shows Good morning, Good afternoon and so on under the date.</string>
+    <string name="set_usage">Usage access</string>
+    <string name="set_usage_help">Lets the Recently used row see apps you opened outside AURA. Android stores this history on the TV; AURA never sends anything anywhere.</string>
+    <string name="set_home">Default home app</string>
+    <string name="set_home_help">Opens the system screen for choosing the home app, where the TV offers one. Some Google TV models do not let you change it without extra steps; see the project\'s installation guide.</string>
+    <string name="set_all_apps_help">See and open every installed app.</string>
+    <string name="set_system_help">Network, sound, picture, remote and the other system settings.</string>
+    <string name="set_about">About AURA OS</string>
+    <string name="version">Version %s</string>
+    <string name="set_about_help">AURA OS is free and open source under the MIT licence, based on tv-home by Mihir Gupta. Wallpaper photos are from Wikimedia Commons under CC BY-SA; the photographer is shown under each picture in Wallpaper. Icons from Material Icons (Apache 2.0). App logos belong to their owners. No ads, no tracking, no network access.</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="granted">Allowed</string>
+    <string name="not_granted">Not allowed</string>
+
+    <string-array name="interval_names">
+        <item>Off</item>
+        <item>Every 5 min</item>
+        <item>Every 15 min</item>
+        <item>Every 30 min</item>
+        <item>Every hour</item>
+    </string-array>
+    <string-array name="dim_names">
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="style_names">
+        <item>Dark with logo</item>
+        <item>Glass</item>
+        <item>Original banner</item>
+    </string-array>
+    <string-array name="size_names">
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="label_names">
+        <item>On focus</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="accent_names">
+        <item>Cyan</item>
+        <item>Violet</item>
+        <item>Amber</item>
+        <item>Rose</item>
+        <item>White</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: TV / device model
+      placeholder: e.g. Sony Bravia XR-55A80J
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: e.g. Android TV 11
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AURA OS version
+      description: Settings → About AURA OS
+      placeholder: e.g. 1.1.0-beta.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened, and how to reproduce it
+      placeholder: |
+        1. Open …
+        2. Press …
+        3. Expected … but saw …
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (if it crashed)
+      description: "Output of `adb logcat -d -b crash`"
+      render: text

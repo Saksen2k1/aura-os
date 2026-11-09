@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Defaults for a fresh install. Users change the app row in Settings → App order;
+  these lists are only the starting point and the device-capability candidates.
+-->
+<resources>
+    <!-- First-run app row, left to right. Apps that aren't installed are skipped;
+         if none are installed, the first eight installed apps are used. -->
+    <string-array name="dock_apps" translatable="false">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.spotify.tv.android</item>
+        <item>com.plexapp.android</item>
+        <item>org.xbmc.kodi</item>
+        <item>com.google.android.youtube.tvmusic</item>
+    </string-array>
+
+    <!-- Never shown as cards. -->
+    <string-array name="hidden_apps" translatable="false" />
+
+    <!-- Live TV / tuner apps, tried in order; the first installed one is listed under Inputs. -->
+    <string-array name="live_tv_packages" translatable="false">
+        <item>com.google.android.tv</item>
+        <item>com.android.tv</item>
+        <item>com.mediatek.wwtv.tvcenter</item>
+        <item>com.sony.dtv.tvx</item>
+        <item>com.tcl.tv</item>
+    </string-array>
+
+    <!-- Manufacturer source pickers, used when a TV exposes no passthrough inputs to apps. -->
+    <string-array name="input_picker_packages" translatable="false">
+        <item>com.tcl.suspension</item>
+    </string-array>
+
+    <!-- Credits for assets/wallpapers/01.jpg … 12.jpg, in file order. Verified on Wikimedia Commons. -->
+    <string-array name="wallpaper_credits" translatable="false">
+        <item>Chensiyuan · CC BY-SA 4.0</item>
+        <item>Ximonic (Simo Räsänen) · CC BY-SA 3.0</item>
+        <item>Ctseelig · CC BY-SA 4.0</item>
+        <item>RodrigoErse · CC BY-SA 4.0</item>
+        <item>Böhringer · CC BY-SA 3.0 AT</item>
+        <item>Jacek Halicki · CC BY-SA 3.0</item>
+        <item>Carsten Steger · CC BY-SA 4.0</item>
+        <item>Tyler Cipriani · CC BY-SA 4.0</item>
+        <item>Jörg Braukmann · CC BY-SA 4.0</item>
+        <item>Gordon Leggett · CC BY-SA 4.0</item>
+        <item>Diliff · CC BY-SA 3.0</item>
+        <item>Samudra Bikash Hazarika, UnpetitproleX · CC BY-SA 4.0</item>
+    </string-array>
+</resources>

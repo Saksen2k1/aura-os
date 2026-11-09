@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inputs">Indgange</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="all_apps">Alle apps</string>
+    <string name="settings">Indstillinger</string>
+    <string name="recently_used">Senest brugt</string>
+    <string name="just_now">Lige nu</string>
+    <string name="minutes_ago">For %d min. siden</string>
+    <string name="today_at">I dag kl. %s</string>
+    <string name="yesterday_at">I går kl. %s</string>
+    <string name="greet_night">God nat</string>
+    <string name="greet_morning">Godmorgen</string>
+    <string name="greet_forenoon">God formiddag</string>
+    <string name="greet_afternoon">God eftermiddag</string>
+    <string name="greet_evening">God aften</string>
+    <string name="net_offline">Ingen forbindelse</string>
+    <string name="net_wifi">Wi-Fi forbundet</string>
+    <string name="net_wired">Kablet forbundet</string>
+    <string name="live_tv">Live-TV</string>
+    <string name="all_sources">Alle kilder…</string>
+    <string name="system_settings">Android-indstillinger</string>
+
+    <string name="apps_installed">%d apps installeret</string>
+
+    <string name="wallpaper">Baggrund</string>
+    <string name="wallpaper_sub">Vælg et fast billede, eller lad AURA skifte automatisk.</string>
+    <string name="auto_change">Automatisk skift</string>
+    <string name="auto_short">Automatisk</string>
+    <string name="auto_off">Skift er slået fra</string>
+    <string name="selected">✓ Valgt</string>
+    <string name="picture_n">Billede %d</string>
+    <string name="own_pictures">Egne billeder: kopiér JPG- eller PNG-filer til\n%s</string>
+
+    <string name="app_order">App-rækkefølge</string>
+    <string name="app_order_sub">Hjemmeskærmens app-række</string>
+    <string name="in_row">I app-rækken · %d</string>
+    <string name="add_apps">Tilføj apps</string>
+    <string name="remove">Fjern</string>
+    <string name="add">Tilføj</string>
+    <string name="moving">↕  Flytter</string>
+    <string name="help_moving">Flytter %s.\n\nBrug op og ned for at placere appen, og tryk OK for at slippe den.</string>
+    <string name="help_order">Tryk OK på en app i rækken for at flytte den.\n\nVælg Fjern for at tage en app ud af rækken, eller Tilføj for at sætte en app ind. Ændringerne vises, når du går tilbage til hjemmeskærmen.</string>
+
+    <string name="settings_sub">AURA OS · Cinematic Android TV Launcher</string>
+    <string name="sec_appearance">Udseende</string>
+    <string name="sec_home">Hjemmeskærm</string>
+    <string name="sec_system">System</string>
+    <string name="set_wallpaper_help">Vælg et fast baggrundsbillede, eller lad AURA skifte automatisk mellem billederne.</string>
+    <string name="set_interval">Skift baggrund</string>
+    <string name="set_interval_help">Hvor ofte baggrunden skifter, når Automatisk skift er valgt som baggrund.</string>
+    <string name="set_dim">Baggrundsdæmpning</string>
+    <string name="set_dim_help">Hvor mørk den filmiske gradient over baggrunden er. Kraftig giver den bedste læsbarhed på lyse billeder.</string>
+    <string name="set_camera">Kamerabevægelse</string>
+    <string name="set_camera_help">En langsom, filmisk panorering hen over baggrundsbilledet. Slået fra som standard: den holder grafikprocessoren i gang hele tiden, og på nogle TV\'er bliver navigationen mindre jævn, mens den kører.</string>
+    <string name="set_accent">Accentfarve</string>
+    <string name="set_accent_help">Farven på fokusrammer, knapper og markeringer i hele AURA.</string>
+    <string name="set_order_help">Vælg hvilke apps der står i app-rækken, og flyt dem i den rækkefølge du vil have.</string>
+    <string name="n_apps">%d apps</string>
+    <string name="set_style">App-kort</string>
+    <string name="set_style_help">Mørk med logo viser appens farverige logo på et sort kort. Glas viser det på mørkt glas. Original banner viser appens eget banner med dets indbyggede baggrund.</string>
+    <string name="set_size">Kortstørrelse</string>
+    <string name="set_size_help">Størrelsen på kortene i app-rækken og Senest brugt-rækken.</string>
+    <string name="set_labels">App-navne</string>
+    <string name="set_labels_help">Vis kun navnet på den app der er i fokus, eller vis navne under alle kort.</string>
+    <string name="set_recent">Senest brugt</string>
+    <string name="set_recent_help">Rækken med de apps du senest har brugt. Med brugsadgang kommer apps åbnet alle steder med; uden den kun apps åbnet fra AURA.</string>
+    <string name="set_greeting">Hilsen under uret</string>
+    <string name="set_greeting_help">Viser Godmorgen, God eftermiddag, God aften osv. under datoen.</string>
+    <string name="set_usage">Brugsadgang</string>
+    <string name="set_usage_help">Lader Senest brugt-rækken se apps, du har åbnet uden for AURA. Android gemmer historikken på TV\'et; AURA sender aldrig noget nogen steder hen.</string>
+    <string name="set_home">Standard-hjemmeapp</string>
+    <string name="set_home_help">Åbner systemets skærm til valg af hjemmeapp, hvor TV\'et har en. Nogle Google TV-modeller tillader ikke skiftet uden ekstra trin; se projektets installationsvejledning.</string>
+    <string name="set_all_apps_help">Se og åbn alle installerede apps.</string>
+    <string name="set_system_help">Netværk, lyd, billede, fjernbetjening og de øvrige systemindstillinger.</string>
+    <string name="set_about">Om AURA OS</string>
+    <string name="version">Version %s</string>
+    <string name="set_about_help">AURA OS er fri og open source under MIT-licensen og bygger på tv-home af Mihir Gupta. Baggrundsfotos er fra Wikimedia Commons under CC BY-SA; fotografen står under hvert billede i Baggrund. Ikoner fra Material Icons (Apache 2.0). App-logoer tilhører deres ejere. Ingen reklamer, ingen sporing, ingen netværksadgang.</string>
+    <string name="on">Til</string>
+    <string name="off">Fra</string>
+    <string name="granted">Tilladt</string>
+    <string name="not_granted">Ikke tilladt</string>
+
+    <string-array name="interval_names">
+        <item>Fra</item>
+        <item>Hvert 5. min</item>
+        <item>Hvert 15. min</item>
+        <item>Hver halve time</item>
+        <item>Hver time</item>
+    </string-array>
+    <string-array name="dim_names">
+        <item>Let</item>
+        <item>Mellem</item>
+        <item>Kraftig</item>
+    </string-array>
+    <string-array name="style_names">
+        <item>Mørk med logo</item>
+        <item>Glas</item>
+        <item>Original banner</item>
+    </string-array>
+    <string-array name="size_names">
+        <item>Normal</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="label_names">
+        <item>Ved fokus</item>
+        <item>Altid</item>
+    </string-array>
+    <string-array name="accent_names">
+        <item>Cyan</item>
+        <item>Violet</item>
+        <item>Rav</item>
+        <item>Rosa</item>
+        <item>Hvid</item>
+    </string-array>
+</resources>
