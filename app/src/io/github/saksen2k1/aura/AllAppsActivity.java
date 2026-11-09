@@ -39,7 +39,7 @@ public class AllAppsActivity extends Activity {
         title.setText(R.string.all_apps);
         col.addView(title);
         TextView sub = AuraTheme.text(this, 14, "sans-serif", AuraTheme.TEXT_SEC);
-        sub.setText(getString(R.string.apps_installed, apps.size()));
+        sub.setText(getResources().getQuantityString(R.plurals.apps_installed, apps.size(), apps.size()));
         col.addView(sub, AuraTheme.llp(-2, -2, dp(2), dp(6), 0, dp(28)));
 
         int gap = dp(20);

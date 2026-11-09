@@ -21,7 +21,10 @@
     <string name="all_sources">Alle kilder…</string>
     <string name="system_settings">Android-indstillinger</string>
 
-    <string name="apps_installed">%d apps installeret</string>
+    <plurals name="apps_installed">
+        <item quantity="one">%d app installeret</item>
+        <item quantity="other">%d apps installeret</item>
+    </plurals>
 
     <string name="wallpaper">Baggrund</string>
     <string name="wallpaper_sub">Vælg et fast billede, eller lad AURA skifte automatisk.</string>
@@ -56,7 +59,10 @@
     <string name="set_accent">Accentfarve</string>
     <string name="set_accent_help">Farven på fokusrammer, knapper og markeringer i hele AURA.</string>
     <string name="set_order_help">Vælg hvilke apps der står i app-rækken, og flyt dem i den rækkefølge du vil have.</string>
-    <string name="n_apps">%d apps</string>
+    <plurals name="n_apps">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
     <string name="set_style">App-kort</string>
     <string name="set_style_help">Mørk med logo viser appens farverige logo på et sort kort. Glas viser det på mørkt glas. Original banner viser appens eget banner med dets indbyggede baggrund.</string>
     <string name="set_size">Kortstørrelse</string>

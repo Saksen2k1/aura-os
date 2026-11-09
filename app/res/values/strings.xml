@@ -25,7 +25,10 @@
     <string name="system_settings">Android settings</string>
 
     <!-- All apps -->
-    <string name="apps_installed">%d apps installed</string>
+    <plurals name="apps_installed">
+        <item quantity="one">%d app installed</item>
+        <item quantity="other">%d apps installed</item>
+    </plurals>
 
     <!-- Wallpaper -->
     <string name="wallpaper">Wallpaper</string>
@@ -63,7 +66,10 @@
     <string name="set_accent">Accent colour</string>
     <string name="set_accent_help">The colour of focus frames, buttons and highlights throughout AURA.</string>
     <string name="set_order_help">Choose which apps sit in the app row, and in what order.</string>
-    <string name="n_apps">%d apps</string>
+    <plurals name="n_apps">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
     <string name="set_style">App cards</string>
     <string name="set_style_help">Dark with logo shows each app\'s colourful logo on a black card. Glass shows it on dark glass. Original banner shows the app\'s own banner with its built-in background.</string>
     <string name="set_size">Card size</string>

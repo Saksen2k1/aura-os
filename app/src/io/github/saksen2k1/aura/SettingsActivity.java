@@ -80,7 +80,10 @@ public class SettingsActivity extends Activity {
                 R.string.set_accent_help);
 
         section(R.string.sec_home);
-        nav(R.string.app_order, () -> getString(R.string.n_apps, AppRepo.effectiveDock(prefs, AppRepo.launchable(this)).size()),
+        nav(R.string.app_order, () -> {
+                    int n = AppRepo.effectiveDock(prefs, AppRepo.launchable(this)).size();
+                    return getResources().getQuantityString(R.plurals.n_apps, n, n);
+                },
                 R.string.set_order_help,
                 () -> AuraTheme.open(this, AppOrderActivity.class));
         cycle(R.string.set_style, R.array.style_names, prefs::cardStyle, prefs::cardStyle, R.string.set_style_help);
